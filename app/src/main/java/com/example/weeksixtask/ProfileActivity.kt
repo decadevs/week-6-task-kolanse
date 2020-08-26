@@ -25,10 +25,10 @@ class ProfileActivity : AppCompatActivity() {
         /**
          * get Strings that was Passed through intent
          */
-     var nameReceived = intent.getStringExtra("Name").toString()
-     var phoneReceived = intent.getStringExtra("PhoneNumber").toString()
-     var emailReceived  = intent.getStringExtra("Email").toString()
-     var genderReceived = intent.getStringExtra("Gender").toString()
+     var nameReceived = intent.getStringExtra("NAME").toString()
+     var phoneReceived = intent.getStringExtra("PHONE_NUMBER").toString()
+     var emailReceived  = intent.getStringExtra("EMAIL").toString()
+     var genderReceived = intent.getStringExtra("GENDER").toString()
 
         /**
          * set the text of corresponding views

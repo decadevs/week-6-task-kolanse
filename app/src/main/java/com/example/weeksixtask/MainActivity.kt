@@ -105,10 +105,10 @@ class MainActivity : AppCompatActivity() {
            * Put gotten Strings in the extra
            */
 
-          intent.putExtra("Name", gottenName)
-          intent.putExtra("Email", gottenEmail)
-          intent.putExtra("PhoneNumber", gottenNumber)
-          intent.putExtra("Gender", gottenGender)
+          intent.putExtra("NAME", gottenName)
+          intent.putExtra("EMAIL", gottenEmail)
+          intent.putExtra("PHONE_NUMBER", gottenNumber)
+          intent.putExtra("GENDER", gottenGender)
 
         startActivity(intent)
         
