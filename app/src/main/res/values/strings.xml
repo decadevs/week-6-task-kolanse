@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">WeekSix Task</string>
+    <string name="male">Male</string>
+    <string name="not">Select Your Gender</string>
+    <string name="female">Female</string>
+    <string name="Unspecified">Unspecified</string>
+    <string name="btn">SIGN UP</string>
+    <string name="register">REGI<font fgcolor='#ff7c17'>STER</font></string>
+    <string name="error">PLEASE CHECK YOUR INPUTS</string>
+
+    <!--    for the spinner-->
+    <string-array name="spinner">
+        <item>@string/not</item>
+        <item>@string/female</item>
+        <item>@string/male</item>
+        <item>@string/Unspecified</item>
+    </string-array>
+
+    <!--    hints-->
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+
+
 </resources>
