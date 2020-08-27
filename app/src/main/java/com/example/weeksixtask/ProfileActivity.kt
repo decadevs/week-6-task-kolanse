@@ -6,8 +6,8 @@ import android.widget.TextView
 
 class ProfileActivity : AppCompatActivity() {
     lateinit var name: TextView
-    lateinit var phoneNumber: TextView
-    lateinit var email: TextView
+    private lateinit var phoneNumber: TextView
+    private lateinit var email: TextView
     lateinit var gender: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

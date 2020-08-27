@@ -222,10 +222,10 @@ class MainActivityTest{
 
             val searchResultsIntent = KIntent {
                 hasComponent(ProfileActivity::class.java.name)
-                hasExtra("Name", correctName)
-                hasExtra("Email", correctEmail)
-                hasExtra("PhoneNumber", correctPhone)
-                hasExtra("Gender", "Male")
+                hasExtra("NAME", correctName)
+                hasExtra("EMAIL", correctEmail)
+                hasExtra("PHONE_NUMBER", correctPhone)
+                hasExtra("GENDER", "Male")
             }
 
             searchResultsIntent.intended()
